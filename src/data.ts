@@ -176,6 +176,24 @@ export const testimonials: Testimonial[] = [
     content: 'Their design team understands typography, spacing, and rhythm unlike anyone else. The custom SaaS design is gorgeous, high-contrast, exceptionally easy to navigate, and our corporate clients are constantly praising how intuitive the data workspace is.',
     rating: 5,
     avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200&h=200'
+  },
+  {
+    id: 'test-4',
+    name: 'James Whitfield',
+    role: 'Director of E-Commerce',
+    company: 'NovaNest Retail Group',
+    content: 'Doctor Commerce took our Amazon and Walmart presence from barely visible to top-of-category. Their PPC strategy, A+ content, and listing SEO delivered a 58% jump in organic traffic within 60 days. We have since handed them our eBay and Facebook Shops channels too.',
+    rating: 5,
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200'
+  },
+  {
+    id: 'test-5',
+    name: 'Priya Nair',
+    role: 'Head of Digital Products',
+    company: 'SwiftStack Technologies',
+    content: 'We contracted them for a full React + AWS rebuild of our client portal and the results exceeded every benchmark. Clean TypeScript, sub-100ms API responses, and a UI our customers genuinely love. Their team communicates proactively and ships on time every single sprint.',
+    rating: 5,
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200&h=200'
   }
 ];
 

@@ -41,7 +41,7 @@ export default function App() {
   };
 
   return (
-    <div id="applet-master-container" className="min-h-screen bg-white dark:bg-slate-950 select-none relative flex flex-col justify-between font-sans text-gray-950 dark:text-white transition-colors duration-300">
+    <div id="applet-master-container" className="min-h-screen bg-white select-none relative flex flex-col justify-between font-sans text-gray-950 transition-colors duration-300">
       
       {/* Top sticky blur Header navbar */}
       <Header
@@ -125,13 +125,13 @@ export default function App() {
         {/* Hover / Auto Tooltip Box */}
         <div className="bg-white text-gray-850 shadow-2xl border border-emerald-100 px-4 py-2.5 rounded-2xl text-xs font-semibold font-sans pointer-events-auto flex items-center gap-2 relative opacity-0 transform translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-emerald-500/5">
           <div className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-          <span>Chat on WhatsApp (0319 4924056)</span>
+          <span>Chat on WhatsApp (+1 562 470 5073)</span>
           <div className="absolute right-6 -bottom-1.5 w-3 h-3 bg-white border-r border-b border-emerald-100 rotate-45" />
         </div>
 
         {/* Pulsing Green Circle Button */}
         <a
-          href="https://wa.me/923194924056?text=Hello%20Doctor%20Commerce!%20I'm%20writing%20to%20arrange%20a%20project%20consultation."
+          href="https://wa.me/15624705073?text=Hello%20Doctor%20Commerce!%20I'm%20writing%20to%20arrange%20a%20project%20consultation."
           target="_blank"
           rel="noopener noreferrer"
           className="pointer-events-auto w-14 h-14 rounded-full bg-emerald-500 text-white flex items-center justify-center shadow-lg hover:shadow-xl hover:shadow-emerald-200 hover:scale-105 active:scale-95 transition-all relative cursor-pointer"
